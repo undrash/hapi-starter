@@ -1,0 +1,19 @@
+{
+  "name": "Hapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node ./build/Index.js"
+  },
+  "keywords": [ "nodejs", "hapi", "starter" ],
+  "author": "Andrei Gaspar",
+  "license": "MIT",
+  "dependencies": {
+    "hapi": "^18.1.0"
+  },
+  "devDependencies": {
+    "@types/hapi": "^18.0.2",
+    "@types/node": "^12.7.12"
+  }
+}
